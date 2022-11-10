@@ -61,6 +61,23 @@ body {
 .plan__features li {
     margin: 8px 0;
 }
+
+.plan__title {
+    color: #0e4f1f
+}
+
+.plan--highlighted .plan__price{
+    color: #0e4f1f;
+}
+
+.plan--highlighted .plan__title{
+    color: white;
+}
+
+.plan__price {
+    color: #858585;
+}
+
 .main-header {
     width: 100%;
     background: #2ddf5c;
