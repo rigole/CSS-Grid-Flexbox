@@ -52,6 +52,15 @@ body {
     font-family: sans-serif;
 } */
 
+.plan__features {
+    list-style: none;
+    padding: 0;
+    padding: 0;
+}
+
+.plan__features li {
+    margin: 8px 0;
+}
 .main-header {
     width: 100%;
     background: #2ddf5c;
