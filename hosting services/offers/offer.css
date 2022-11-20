@@ -5,62 +5,20 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
-    padding-top: 15px;
-
+main{
+    padding-top: 32px;
 }
 
-section a {
+.offer {
+    width: 80%;
+    margin: 16px 0;
+    border: 4px solid #0e4f1f;
+    border-left: none;
+}
+
+.offer a {
     text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
 }
-
-.plus_plan a{
-    border: #0e4f1f 5px solid;
-    width: 50%;
-    padding: 24px;
-    border-left: none;
-    background-color: #bbdac5;
-}
-
-.free_plan a{
-    border: #0e4f1f 5px solid;
-    width: 50%;
-    padding: 24px;
-    border-left: none;
-    background-color: #bbdac5;
-}
-
-.premium_plan a{
-    border: #0e4f1f 5px solid;
-    width: 50%;
-    padding: 24px;
-    border-left: none;
-    background-color: #0e4f1f;
-}
-.premium_plan_title{
-    color: white;
-    font-weight: bolder;
-}
-
-h2 {
-    color: gray;
-}
-
-p {
-    background-color: white;
-  
-    padding: 10px;
-}
-
-.free_plan_para {
-    border: black 1px solid;
-}
-.plus_plan_para {
-    border: black 1px solid;
-}
-.premium_plan_para{
-    border: black 1px solid;
-}
-
