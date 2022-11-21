@@ -1,1 +1,1 @@
-This repo is to reqork my raw CSS Skills
+This repo is to work my raw CSS Skills
