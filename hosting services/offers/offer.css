@@ -16,9 +16,47 @@ main{
     border-left: none;
 }
 
+.offer:hover,
+.offer:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-color: #ff5454;
+}
+ 
 .offer a {
     text-decoration: none;
     color: inherit;
     display: block;
     padding: 32px;
+}
+
+.offer__subtitle {
+    color: #979797;
+}
+
+.offer__info{
+    padding: 16px;
+    border: 1px solid #0e4f1f;
+    font-size: 20px;
+    color: #0e4f1f;
+    background: white;
+}
+
+#plus {
+    background: rgba(213, 255, 220, 0.95);
+}
+
+#free{
+    background: rgba(234, 252, 237, 0.95);
+}
+
+#premium{
+    background: rgba(14, 79, 31, 0.95);
+}
+
+#premium .offer__title {
+    color: white;
+}
+
+#premium .offer__subtitle{
+    color: #bbb;
 }
