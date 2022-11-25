@@ -7,6 +7,12 @@ body {
     margin: 0;
 }
 
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 #product-overview {
     background: url("freedom.jpg");
     width: 100%;
