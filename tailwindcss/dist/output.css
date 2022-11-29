@@ -554,8 +554,28 @@ video {
   bottom: 0px;
 }
 
+.-top-24{
+  top: -6rem;
+}
+
+.-left-16{
+  left: -4rem;
+}
+
+.-bottom-24{
+  bottom: -6rem;
+}
+
+.-right-16{
+  right: -4rem;
+}
+
 .z-10{
   z-index: 10;
+}
+
+.-z-10{
+  z-index: -10;
 }
 
 .mx-auto{
@@ -651,6 +671,10 @@ video {
   height: 18rem;
 }
 
+.h-48{
+  height: 12rem;
+}
+
 .min-h-full{
   min-height: 100%;
 }
@@ -687,20 +711,16 @@ video {
   width: 50%;
 }
 
-.w-5{
-  width: 1.25rem;
-}
-
 .w-5\/12{
   width: 41.666667%;
 }
 
-.w-10{
-  width: 2.5rem;
-}
-
 .w-10\/12{
   width: 83.333333%;
+}
+
+.w-32{
+  width: 8rem;
 }
 
 .max-w-xl{
@@ -1095,6 +1115,11 @@ npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='24' viewBox='0 0 88 24'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='autumn' fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M10 0l30 15 2 1V2.18A10 10 0 0 0 41.76 0H39.7a8 8 0 0 1 .3 2.18v10.58L14.47 0H10zm31.76 24a10 10 0 0 0-5.29-6.76L4 1 2 0v13.82a10 10 0 0 0 5.53 8.94L10 24h4.47l-6.05-3.02A8 8 0 0 1 4 13.82V3.24l31.58 15.78A8 8 0 0 1 39.7 24h2.06zM78 24l2.47-1.24A10 10 0 0 0 86 13.82V0l-2 1-32.47 16.24A10 10 0 0 0 46.24 24h2.06a8 8 0 0 1 4.12-4.98L84 3.24v10.58a8 8 0 0 1-4.42 7.16L73.53 24H78zm0-24L48 15l-2 1V2.18A10 10 0 0 1 46.24 0h2.06a8 8 0 0 0-.3 2.18v10.58L73.53 0H78z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
+.plus_pattern {
+  background-color: #DFDBE5;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
 .hover\:border-blue-500:hover{
   --tw-border-opacity: 1;
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
@@ -1157,4 +1182,4 @@ npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch
   .md\:inline-flex{
     display: inline-flex;
   }
-}
+} 
